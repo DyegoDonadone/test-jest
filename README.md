@@ -1,2 +1,5 @@
 # test-jest
-Realizando testes com Jest / Testing with Jest
+Realizando testes com Jest 
+
+## Executar Teste
+npm test
