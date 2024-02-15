@@ -1,5 +1,5 @@
-# test-jest
+# Teste unitario com JEST
 Realizando testes com Jest 
 
-## Executar Teste
-npm test
+### Executar Teste
+``` npm test ```
