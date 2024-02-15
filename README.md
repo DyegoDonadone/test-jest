@@ -1,5 +1,8 @@
 # Teste unitario com JEST
 Realizando testes com Jest 
 
-### Executar Teste
+### Instalação
+``` npm install --save-dev jest ```
+
+### Execução de Teste
 ``` npm test ```
