@@ -19,3 +19,14 @@ test('-1 não deve ser permitido', () => {
 test('Deve inverter String Java -> avaJ', () => {
     expect( funcoes.inverterString('Java')).toEqual('avaJ');
 })
+
+const casosInversaoStrings = [['DYEGO', 'OGEYD'], ['ANA', 'ANA'], ['JEST', 'TSEJ']];
+describe('Inversao de Strings', () => {
+    test.each(casosInversaoStrings)(
+        'inversao de %p -> %p',
+        (original, inversaoEsperada) => {
+            const resultado = funcoes.inverterString(original);
+            expect(resultado).toEqual(inversaoEsperada);
+        }
+    )
+})
