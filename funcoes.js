@@ -7,7 +7,8 @@ const funcoes = {
             return true;
         else
             return false;
-    }
+    },
+    inverterString: str => str.split('').reverse().join('')
 }
 
 module.exports = funcoes;

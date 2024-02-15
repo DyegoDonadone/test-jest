@@ -15,3 +15,7 @@ test('100 deve ser permitido', () => {
 test('-1 não deve ser permitido', () => {
     expect( funcoes.codigoValido(-1)).toBeFalsy();
 });
+
+test('Deve inverter String Java -> avaJ', () => {
+    expect( funcoes.inverterString('Java')).toEqual('avaJ');
+})
