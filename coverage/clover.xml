@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1708038816966" clover="3.2.0">
-  <project timestamp="1708038816966" name="All files">
+<coverage generated="1708044700896" clover="3.2.0">
+  <project timestamp="1708044700896" name="All files">
     <metrics statements="13" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="8" coveredmethods="6" elements="25" coveredelements="21" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
     <file name="funcoes.js" path="/var/www/test-jest/funcoes.js">
       <metrics statements="13" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="8" coveredmethods="6"/>
